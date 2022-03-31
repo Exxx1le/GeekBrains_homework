@@ -10,8 +10,12 @@
 # ...
 # 100 процентов
 
+<<<<<<< HEAD
+for percent in range(1, 101):
+=======
 percent = int(input('Введите процент от 1 до 100 '))
 if percent > 0 and percent < 101:
+>>>>>>> eed3cd9c66143222fa06131ff7d5e59f39036ccb
     if percent % 10 == 1 and percent != 11:
         print(percent, 'процент')
     elif percent == 12 or percent == 13 or percent == 14:
